@@ -1,0 +1,33 @@
+.circulo{
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    background-color: red;
+    border-radius: 50px;
+    border: solid;
+    animation-name: rebote;
+    animation-duration:1.5s;
+    animation-iteration-count:infinite;
+    animation-timing-function: linear;
+    
+    
+}
+@keyframes  rebote{
+    0%{
+        margin-right: 0rem;
+        transform: rotate(0deg);
+
+    }
+
+    50%{
+        margin-left: 90px;
+        transform: rotate(360deg);
+    }
+75%{
+    background-color: blue;
+}
+    100%{
+        margin-right: 0rem;;
+        transform: rotate(0deg);
+    }
+}

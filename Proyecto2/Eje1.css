@@ -1,0 +1,137 @@
+
+body{
+    margin: 0%;
+    font-family: Arial;
+}
+
+.cabeza{
+    background-color: #00AF1C;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+
+    
+    
+    
+    
+}
+
+.logo{
+    margin-left: 25px;
+}
+
+.servici{
+    margin-right: 25px;
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    
+
+}
+.servici  a{
+    text-decoration: none;
+    color: white;
+}
+
+.servici a{
+    transition:all;
+}
+.servici a:hover{
+    background: black;
+    border-radius: 10px;
+    
+}
+
+.seccion{
+    padding: 20px;
+    
+    margin-top: 4rem;
+
+
+
+}
+.home{
+    color: #3B06D2;
+}
+
+.imagenes{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8rem;
+    padding-top: 20px;
+  
+
+}
+.img{
+    margin-left: 20px;
+    border-radius: 8px;
+    height: 160px;
+    
+}
+
+#servicios{
+    color: #D206B2;
+}
+
+.numeros li{
+    margin-bottom: 0.8rem;
+}
+ .numeros li::marker{
+
+    color: red;
+}
+
+.uno{
+    color: #FF0000;
+}
+.dos{
+    color: #1400FF ;
+}
+.tres{
+    color: #D79B00;
+}
+.cuatro{
+    color: #03B2B2;
+}
+
+.numeros2 li{
+    margin-bottom: 0.8rem;
+}
+ .numeros2 li::marker{
+
+    color: yellow;
+}
+
+.nombre{
+    width: 1339px;
+    height: 88px;
+}
+
+.detalle{
+    width: 1339px;
+    height: 214px;
+}
+.boton{
+    width: 195px;
+    height: 73px;
+    color: #00AF1C;
+    
+}
+
+.pies{
+
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #00AF1C;
+    color: white;
+}
+.mov{
+
+    padding-top: 70px;
+}

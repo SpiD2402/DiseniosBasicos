@@ -1,0 +1,37 @@
+.posicion1{
+    position: relative;
+}
+
+.posicion2{
+    font-size: 40px;
+    position: absolute;
+    bottom: 20px;
+    left: 2rem;
+}
+.grid{
+    max-width: 1320px;
+    height: 700px;
+    border: solid;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(6,1fr);
+    overflow: hidden;
+}
+.imagen{
+    grid-column: 1/5;
+    grid-row: 1/6;
+}
+.leader{
+    width: 11rem;
+    grid-column: 4/7;
+    grid-row: 3/7;
+    background-color: white;
+    padding: 2rem;
+ 
+}
+.title-leader{
+    font-size: 50px;
+}
+h1,p{
+    margin:5rem;
+}

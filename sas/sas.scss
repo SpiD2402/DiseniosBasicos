@@ -1,0 +1,20 @@
+
+$color:rgb(0, 255, 47);
+$primario:blue;
+$color-font: pink ;
+
+
+@mixin alertita ($wd:200px,$hd:400px) {
+    color: $color-font;
+    height: $wd;
+    width: $hd;
+    background-color: $primario;
+
+}
+
+@mixin bga($back:grey,$wit:420px,$h:320px){
+    background-color: $color-font;
+    width: $wit;
+    height: $h;
+
+}

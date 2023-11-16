@@ -1,0 +1,43 @@
+
+
+.container{
+    max-width: 1100px;
+ 
+}
+header{
+    background-image: url("/Proyecto5/images/bg-hero-desktop.svg");
+    height: 550px;
+    background-size: cover;
+    position: relative;
+    
+
+}
+.btn1{
+    background-color: #5080E5;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+.title{
+    color: #5080E5;
+    font-size: 45px;
+    font-weight: bold;
+}
+.logo{
+    width: 120px;
+}
+
+.title2{
+    position: absolute;
+    top: 50%;
+
+    transform: translateY(-50%);
+}
+
+#row-cursos{
+    background-color: #5080E5;
+    margin: 0;
+}

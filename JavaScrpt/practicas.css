@@ -1,0 +1,28 @@
+
+.contenedor1{
+    width: 80%;
+    margin: auto;
+}
+input{
+    border-radius: 20px;
+    height: 30px;
+    text-align: center;
+
+}
+button{
+    width: 120px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: dodgerblue;
+    color: white;
+}
+
+input,button{
+    margin-right: 2rem;
+    margin-top: 1rem;
+}
+form{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}

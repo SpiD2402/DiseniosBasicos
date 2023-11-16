@@ -1,0 +1,212 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+h4{
+    color: #1F3F68;
+}
+.wrap{
+    max-width: 960px;
+    
+    padding: 0 auto ;
+    border: solid;
+    margin: auto;
+    border:solid;
+}
+.navegacion{
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5rem;
+    align-items: center;
+}
+.nv{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    
+    
+}
+
+.nv li a {
+    text-decoration: none;
+}
+
+.banner{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+
+}
+.parrafo{
+    position: absolute;
+    top: 0;
+    color: white;
+    width: 30rem;
+}
+
+.imp{
+    
+    margin: 5rem;
+}
+.imp input{
+    width: 100%;
+    height: 56px;
+    margin-bottom: 2.5rem;
+}
+.casa-feugiat{
+    
+    display: flex;
+    align-items: center;
+    
+    
+   
+}
+.casa{
+    width: 450px;
+  
+}
+
+.titulo-feugiat{
+    font-size: 36px;
+    color: #1F3F68;
+    margin: 0;
+    
+}
+.lorem{
+    font-size: 16px;
+}
+.iconos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.share-save img{
+    margin: 0rem 1rem;
+}
+.foto-casa{
+    margin-top: 2rem;
+    display: flex;
+    
+}
+.popular{
+    margin: 0rem;
+}
+
+.proteina{
+    display: flex;
+    gap: 2rem;
+    margin-top: 1rem;
+    
+}
+.proteina img{
+    width: 100%;
+}
+
+.proteina h2{
+    font-size: 
+    22px;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.share-save2 img {
+    width: 30%;
+    
+}
+.name{
+    color: #1F3F68;
+}
+
+.articulos{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.articulos img{
+    width: 100%;
+}
+.letras{
+    margin-left: 1rem;
+}
+
+.compartir{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img-share{
+    display: flex;
+}
+.img-share img{
+    margin: 0rem 1rem;
+}
+
+.share-save3 img{
+    
+    margin: 0rem 10px;
+    
+}
+
+.flecha span{
+    margin-left: 1rem;
+
+}
+.pies{
+    background-color: #316099;
+}
+.pies2
+{
+    
+    margin: 0rem 7rem;
+    
+}
+
+.foter1{
+    display: flex;
+    align-items: center;
+    
+    justify-content: center;
+    
+    
+}
+.foter1 .boton{
+    width: 220px;
+    height: 56px;
+  background-color: #5A98D0;
+  border: none;
+  color: white;
+}
+.foter1 h1{
+    color: white;
+}
+.intersted h1{
+   
+    margin-right: 14rem;
+}
+.intersted p{
+    margin-right: 8rem;
+}
+
+.logo-afr{
+    display: flex;
+    align-items: center;
+}
+.contenedor{
+    margin-right: 0;
+}
+
+.flex-contenedor{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.about,.follow,.afrinska{
+    color: white;
+    font-size: 20px;
+}

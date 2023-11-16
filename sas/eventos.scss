@@ -1,0 +1,50 @@
+
+$color:white;
+$primary:blue;
+$plomo: rgb(34,34,34);
+
+.boton{
+        background-color: blue;
+        position: absolute;
+        right:  0;
+        margin-right: 1rem;
+        border-radius: 20px;
+        width: 6rem;
+        height: 2rem;
+        border: solid $plomo;
+        
+    .circulo{
+        background-color: red;
+        width: 27px;
+        height: 25px;
+        transition: 1s;
+        transform: translateX(-4px);
+        cursor: pointer;
+        border-radius: 20px;
+    }
+}
+
+.centrar{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.dark{
+    background-color: $plomo;
+    color: white;
+    .boton{
+        background-color: white;
+        color: red;
+        
+    }
+
+    .circulo{
+        background-color: $primary;
+        transform: translateX(3.6rem);
+      
+    }
+}

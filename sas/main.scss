@@ -1,0 +1,18 @@
+@import "./sas.scss";
+
+body{
+    background-color:$color;
+
+}
+.success{
+    @include bga;
+
+}
+
+
+
+/*Las variables dentro del mixin se puede modificar*/
+.info{
+    @include alertita( $wd:100px);
+}
+

@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.letras{
+    display: flex;
+
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    
+}
+.darkLetras{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+.circulo{
+    
+    width: 35px;
+    border-radius: 50px;
+    height: 35px;
+    cursor: pointer;
+    background-color: white;
+    transform: translateX(0px);
+    transition: 0.7s;
+}
+
+.darkCirculo{
+    width: 35px;
+    border-radius: 50px;
+    height: 35px;
+    cursor: pointer;
+    background-color: rgb(54, 54, 54);
+    transform: translateX(65px);
+    transition: 0.7s;
+}
+.rectangulo{
+    margin: 2rem 2rem;
+    
+    width: 100px;
+    border-radius: 20px;
+    height: 35px;
+    background-color: rgb(54, 54, 54);
+    position:fixed;
+    border: solid;
+}
+.darkRectangulo{
+    margin: 2rem 2rem;
+    width: 100px;
+    border-radius: 20px;
+    height: 35px;
+    background-color: white;
+    position: fixed;
+    border: solid aqua;
+    
+    
+}
+.contenedor{
+    background-color: white;
+}
+
+.darkContenedor{
+    background-color: black;
+}

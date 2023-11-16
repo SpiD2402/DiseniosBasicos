@@ -1,0 +1,34 @@
+*,html{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.root{
+    height: 100vh;
+    background-color: rgb(169,181,248);
+}
+
+.fijo{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: flex;
+    bottom: 50px;
+    right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.absoluto{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+
+}

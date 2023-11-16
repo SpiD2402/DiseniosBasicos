@@ -1,0 +1,22 @@
+#listas{
+    list-style: none;
+}
+#baner{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+#abs{
+    position: absolute;
+
+    
+}
+#bl{
+    position: relative;
+}
+#wh{
+    position: absolute;
+    top: 0;
+    margin-left: 0.1rem;    
+}

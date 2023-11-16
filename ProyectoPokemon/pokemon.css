@@ -1,0 +1,41 @@
+
+
+.contenedor{
+    margin-top: 2rem;
+   display: flex;
+    justify-content: center;
+    flex-wrap: wrap;    
+    gap: 2rem;
+    text-align: center;
+
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.pokemon-grid .div-grid{
+    border: solid;
+    width: 20rem;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+
+}
+.pokemon-grid div img {
+    width: 100%;
+    height: 18rem;
+   
+}
+h1{
+    font-size: 60px;
+    text-align: center;
+}
+.nombre-pokemon{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.color-span{
+    font-size: 1.5rem;
+    color: white;
+}
+#pokemon-img{
+    width: 20rem;
+    height: 20rem;
+}

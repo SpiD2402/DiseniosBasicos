@@ -1,0 +1,23 @@
+
+body{
+    margin: 0;
+    height: 100vh;
+    border: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,96,1) 35%, rgba(0,212,255,1) 100%);
+    }
+
+
+button{
+    width: 12rem;
+    height: 5rem;
+    border-radius: 20px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(22,9,121,0.3452731434370623) 35%, rgba(0,212,255,1) 100%);
+    color: white;
+}
+
+
+
+

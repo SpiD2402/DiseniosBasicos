@@ -1,0 +1,17 @@
+body {
+  background-color: rgb(0, 255, 47);
+}
+
+.success {
+  background-color: pink;
+  width: 420px;
+  height: 320px;
+}
+
+/*Las variables dentro del mixin se puede modificar*/
+.info {
+  color: pink;
+  height: 100px;
+  width: 400px;
+  background-color: blue;
+}/*# sourceMappingURL=main.css.map */

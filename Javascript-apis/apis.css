@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.mover{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(26,3,41,1) 12%, rgba(40,5,44,1) 19%, rgba(204,26,78,1) 100%, rgba(0,212,255,1) 100%);
+    
+}
+.parte{
+    border: solid;
+    padding: 2rem 4rem;
+    border-radius:20px ;
+    background-color: rgba(0,0,0,0.3)
+}
+.buscador{
+    border: none ;
+    width: 20rem;
+    height: 2rem;
+    border-radius: 20px;
+    
+}
+.parte button{
+    width: 7rem;
+    height: 2.4rem;
+    border-radius: 20px;
+    border: none;
+    background-color: brown;
+    color: white;
+}
+.datos{
+    color: white;
+}

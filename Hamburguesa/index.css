@@ -1,0 +1,130 @@
+html{
+    font-size: 63%;
+    box-sizing: border-box;
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    font-family: Arial;
+    background: url(./54342-pc.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 8vh;
+    background-color: #000;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.8rem;
+}
+.han{
+    display: none;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    margin: 0;
+    padding: 0;
+  
+}
+.han span{
+    background-color: white;
+    display: block;
+    height: 10px;
+    width: 28px;
+    margin: 10px auto;
+    border-radius: 2px ;
+}
+
+.link-menu{
+    display: flex;
+    padding: 0;
+}
+.link-menu li{
+    padding: 0 40px;
+    list-style: none;
+    transition: 0.3s;
+}
+
+.link-menu li:hover{
+    background-color: rgb(62, 130, 198);
+}
+
+/*Resposi web design*/
+@media (max-width:750px){
+
+        body{
+            overflow: hidden;
+        }
+
+        .han{
+            display: block;
+            cursor: pointer;
+            position: absolute;
+            top: 15px;
+            right: 25px;
+            transition: 0.2s 0.1s;
+        }
+        
+        nav{
+            flex-direction: column;
+            align-items: flex-start;
+            padding-top: 28px;
+            padding-bottom: 28px;
+        }
+        .link-menu{
+            flex-direction: column;
+            justify-content: space-around;
+            display: none;
+            align-items: center;
+            height: 92vh;
+            margin: 0;
+            padding: 0;
+          
+            opacity: 0;
+            transition: opacity 5s ease-out;
+            width: 100%;
+        }
+        .link-menu li{
+            text-align: center;
+            width: 100%;
+            padding: 20px;
+        }
+}
+
+@keyframes muestraMenu{
+
+    from{opacity: 0;}
+    to{opacity: 1;}
+
+}
+
+.link-menu.activado{
+        display: flex;
+        animation: muestraMenu 350ms ease-in-out both;
+
+}
+
+.br-1.animado{
+    transform: rotate(-45deg) translate(-10px,8px);
+
+}
+.br-2.animado{
+
+    opacity: 0;
+}
+
+.br-3.animado{
+    transform: rotate(45deg) translate(-10px,-8px);
+}
+
+.han.girar:hover{
+    transform: rotate(360deg);
+}

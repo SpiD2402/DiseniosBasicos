@@ -1,0 +1,7 @@
+ p{
+    display: none;
+}
+.btn:hover p{
+    display: block;
+    color: red;
+}

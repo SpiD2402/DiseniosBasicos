@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bd{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(54,54,54);
+
+}
+
+.boton{
+    width: 240px;
+    height:  70px;
+    border-radius: 20px;
+    background-color: brown;
+    color: white;
+    border: none;
+}
+nav{
+    background-color: black;
+    height: 100px;
+    line-height: 100px;
+    color: white;
+}
